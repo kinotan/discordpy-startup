@@ -13,7 +13,7 @@ async def on_command_error(ctx, error):
 
 
 @bot.command()
-async def sho(ctx):
+async def ha?(ctx):
     await ctx.send('saru')
 
 
