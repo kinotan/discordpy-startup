@@ -13,8 +13,8 @@ async def on_command_error(ctx, error):
 
 
 @bot.command()
-async def sho(ctx):
-    await ctx.send('saru')
+async def ping(ctx):
+    await ctx.send('pong')
 
 
 bot.run(token)
