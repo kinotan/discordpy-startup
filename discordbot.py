@@ -4,7 +4,7 @@ import os
 import traceback
 
 bot = commands.Bot(command_prefix='/')
-token = os.environ['DISCORD_BOT_TOKEN2']
+token = os.environ['kinotan']
 
 
 @bot.event
