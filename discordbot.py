@@ -13,7 +13,7 @@ async def on_command_error(ctx, error):
 
 
 @bot.command()
-async def urusai(ctx):
+async def sho(ctx):
     await ctx.send('saru')
 
 
