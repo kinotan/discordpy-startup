@@ -46,3 +46,7 @@ async def on_message(message):
                 await sleep(5)
                 await client.delete_message(delmsg)
 client.run("***")
+
+@bot.command()
+async def ping(ctx):
+    await ctx.send('pong')
