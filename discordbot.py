@@ -18,7 +18,7 @@ async def ping(ctx):
 
     
 @bot.command()
-async def sho(ctx):
+async def tokushu111(ctx):
     await ctx.send('しね')
 
 bot.run(token)
